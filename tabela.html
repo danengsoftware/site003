@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+</head>
+
+<style>
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+   font-family: Arial, Helvetica, sans-serif;
+   padding: 10px;
+   margin: 10px;  
+}
+
+caption{
+    font-weight: bolder;
+    font-size: 15px;
+    margin: 10px;
+}
+
+table{
+    border-collapse: collapse;      
+    font-size: 15px;
+    
+}
+
+th{
+    border: 1px solid black;
+    padding: 0px 15px 15px 20px;
+    background-color: rgb(232, 232, 232);
+    font-size: 12px;
+}
+
+td{
+    border: 1px solid black;
+    padding: 10px;  
+    font-size: 12px;
+}
+
+td:hover{
+    background-color: rgb(209, 209, 209);
+}
+
+.right{
+    text-align: right;
+}
+
+.center{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(70, 18, 255, 0.868);
+}
+
+a:hover{
+    text-decoration: none;
+    background-color: rgb(236, 236, 236);   
+    padding: 5px; 
+}
+
+tfoot{
+    background-color: rgb(232, 232, 232);
+}
+
+tfoot > tr{
+    font-weight: bolder;    
+}
+
+</style>
+
+<body>
+
+    <h1>Tabela</h1>
+
+    <table>
+       <caption>
+        Unidades federativas do Brasil por população
+    </caption>
+
+        <thead>
+            <tr>
+                <th rowspan="2">N</th>              
+                <th rowspan="2">Unidade Federativas</th>
+                <th colspan="2">Populção <sup><a href="#">[3][4]</a></sub</th>
+                <th colspan="2">Variação de <sup><a href="#">[3]</a></sup><br>(2010-2024)</th>
+                <th rowspan="2">% do Total de <br>(2024)<sup><a href="#">[4]</a></sup></th>
+                <th rowspan="2">País Comparável <br>(Habitantes) <sup><a href="#">[5][a]</a></sup></th>
+            </tr>
+
+            <tr>
+                <th>2024 (est.)</th>
+                <th>2022</th>
+                <th>%</th>
+                <th><abbr title="Variação Absoluta">Abs.</abbr></th>      
+            </tr>
+
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td><a href="https://pt.wikipedia.org/wiki/S%C3%A3o_Paulo_(estado)">São Paulo</a></td>
+                <td class="right">45 973 194</td>
+                <td class="right">44 411 238</td>
+                <td class="right">7,63%</td>
+                <td class="right">3 149 039</td>
+                <td class="right">21,63%</td>
+                <td>Iraque (46 042 015)</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td><a href="">Minas Gerais</a></td>
+                <td class="right">21 322 691</td>
+                <td class="right">20 539 989</td>
+                <td class="right">4,81%</td>
+                <td class="right">942 659</td>
+                <td class="right">10,03%</td>
+                <td>Zâmbia (21 314 956)</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td><a href="https://pt.wikipedia.org/wiki/Rio_de_Janeiro_(estado)">Rio de Janeiro</a></td>
+                <td class="right">17 219 679</td>
+                <td class="right">16 055 174</td>
+                <td class="right">0,41%</td>
+                <td class="right">65 245</td>
+                <td class="right">8,10%</td>
+                <td>Camboja (17 638 801)</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td><a href="https://pt.wikipedia.org/wiki/S%C3%A3o_Paulo_(estado)">Bahia</a></td>
+                <td class="right">14 850 513</td>
+                <td class="right">14 141 626</td>
+                <td class="right">0,89%</td>
+                <td class="right">124 720</td>
+                <td class="right">6,99%</td>
+                <td>Guiné (14 754 785)</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td><a href="">Paraná</a></td>
+                <td class="right">21 322 691</td>
+                <td class="right">11 444 380</td>
+                <td class="right">9,57%</td>
+                <td class="right">999 854</td>
+                <td class="right">5,56%</td>
+                <td>Haiti (11 772 557)</td>
+            </tr>
+
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td></td>
+                <td>Total</td>
+                <td class="right">212 583 750</td>
+                <td class="right">203 080 756</td>
+                <td class="right">6,46%</td>
+                <td class="right">12 324 957</td>
+                <td class="right">100%</td>
+                <td class="center">------</td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+</body>
+</html>
